@@ -56,22 +56,22 @@ export default () => <>
   </Section>
   <Section title='Projects'>
     <Grid lg={3} md={2} sm={1}>
-      <Project title='Term' status='offline'>
+      <Project title='Term' href='https://discordbots.org/bot/520710130598150144' status='offline'>
         A Discord bot for running commands in secure sandboxes.
       </Project>
       <Project title='PwnBot' status='working'>
         A bot to automate some tiresome server management tasks.
       </Project>
-      <Project title='Bored' status='raided'>
+      <Project title='Bored' href='https://bored.pwnsquad.net/' status='raided'>
         A simple and beautiful optionally anonymous message board.
       </Project>
-      <Project title='Project Portal' status='working'>
+      <Project title='Project Portal' href='https://portal.kognise.dev/' status='working'>
         A collection of Dockerized microservices and tools.
       </Project>
       <Project title='Pot' status='working'>
         An SSH honeypot to catch big bad hackers.
       </Project>
-      <Project title='Fish' status='working'>
+      <Project title='Fish' href='https://signin.account.google.com.goo.gl.gggle.ga/' status='working'>
         A Google login phishing page created for educational purposes.
       </Project>
     </Grid>

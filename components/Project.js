@@ -2,7 +2,9 @@ import theme from '../theme'
 
 export default (props) => (
   <div>
-    <h2>{props.title}</h2>
+    <h2>
+      {props.href ? <a href={props.href} target='_blank'>{props.title}</a> : props.title}
+    </h2>
     <p className='status'>
       <span className='orb'></span>{' '}
       {props.status}
@@ -12,6 +14,13 @@ export default (props) => (
     <style jsx>{`
       h2 {
         margin-bottom: 8px;
+      }
+      h2 a {
+        color: inherit;
+        text-decoration: none;
+      }
+      h2 a:hover {
+        text-decoration: underline;
       }
       .status {
         text-transform: uppercase;
