@@ -6,6 +6,7 @@ export default (props) => (
       <img className='logo' src='/static/logo.png' />
       <h1>{props.title}</h1>
       {props.subtitle && <h2>{props.subtitle}</h2>}
+      {props.action && <a className='action' href={props.href} target='_blank'>{props.action} &raquo;</a>}
     </div>
 
     <style jsx>{`
@@ -24,6 +25,17 @@ export default (props) => (
       }
       h1 {
         font-size: 3em;
+      }
+      .action {
+        display: inline-block;
+        margin-top: 20px;
+        color: #ffffff;
+        text-decoration: none;
+        background: #339af0;
+        padding: 14px;
+      }
+      .action:hover {
+        text-decoration: underline;
       }
     `}</style>
   </section>

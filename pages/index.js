@@ -17,6 +17,8 @@ export default () => <>
   <Hero
     title='PwnSquad'
     subtitle='A Discord hacking server without the people who ruin it all'
+    action='Join us'
+    href='https://discord.gg/X93TsZQ'
   />
   <Section title='How it works'>
     <Grid lg={3} md={1}>
