@@ -3,7 +3,7 @@ export default {
   extraPadding: '14px',
   statuses: {
     offline: '#fa5252',
-    raided: '#fab005',
+    unstable: '#fab005',
     working: '#51cf66'
   }
 }

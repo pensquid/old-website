@@ -62,7 +62,7 @@ export default () => <>
       <Project title='PwnBot' status='working'>
         A bot to automate some tiresome server management tasks.
       </Project>
-      <Project title='Bored' href='https://bored.pwnsquad.net/' status='raided'>
+      <Project title='Bored' href='https://bored.pwnsquad.net/' status='unstable'>
         A simple and beautiful optionally anonymous message board.
       </Project>
       <Project title='Project Portal' href='https://portal.kognise.dev/' status='working'>
