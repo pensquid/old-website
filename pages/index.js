@@ -56,6 +56,9 @@ export default () => <>
   </Section>
   <Section title='Projects'>
     <Grid lg={3} md={2} sm={1}>
+      <Project title='Website' href='https://pwnsquad.net/' status='working'>
+        The beautiful website you're looking at right now!
+      </Project>
       <Project title='Term' href='https://discordbots.org/bot/520710130598150144' status='offline'>
         A Discord bot for running commands in secure sandboxes.
       </Project>
@@ -73,6 +76,12 @@ export default () => <>
       </Project>
       <Project title='Fish' href='https://signin.account.google.com.goo.gl.gggle.ga/' status='working'>
         A Google login phishing page created for educational purposes.
+      </Project>
+      <Project title='CTFBot' href='https://discordapp.com/api/oauth2/authorize?client_id=580257069760905216&permissions=0&scope=bot' status='development'>
+        A simple Discord bot for playing hacking CTFs.
+      </Project>
+      <Project title='PwnHost' status='development'>
+        Simple and reliable personal hosting for any application.
       </Project>
     </Grid>
   </Section>

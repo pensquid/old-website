@@ -4,6 +4,7 @@ export default {
   statuses: {
     offline: '#fa5252',
     unstable: '#fab005',
-    working: '#51cf66'
+    working: '#51cf66',
+    development: '#339af0'
   }
 }
