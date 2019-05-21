@@ -48,7 +48,7 @@ export default () => <>
       Our mission is twofold: to bring hackers and programmers together in a fun community without the people who ruin everything, and to encourage the next generation of developers and help them learn.
     </p>
     <p>
-      We accomplish the first with a state-of-the art verification system based on our devoted staff team and a bot we wrote.
+      We accomplish the first with a state-of-the-art verification system based on our devoted staff team and a bot we wrote.
     </p>
     <p>
       And we accomplish the second simply by being as supportive as we can and offering whatever help and resources we can find.
