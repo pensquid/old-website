@@ -36,7 +36,7 @@ export default () => <>
   <Section title='Our amazing staff'>
     <Grid lg={6} md={3} sm={2}>
       <Member for='Kognise' avatar='389576827754250241/eeeb23a12ec6e97f30699dc0276534b4' />
-      <Member for='Ryois' avatar='524738797338886184/ec914720e0c7b88e4f696e4cb253f52b' />
+      <Member for='Ryois' avatar='520452924967747584/586971668069613582/Untitled.png' type='attachment' />
       <Member for='jokur' avatar='581319977265790986/a_4f50a187ad2a13583aee747ff55c4fe4' />
       <Member for='Wfenpo' avatar='514563401351954434/3dabe3f903ed7c471e3459a733bd9543' />
       <Member for='Ara' avatar='270615936057212928/a_813012b2b4edf196b5f44b6439fa01c3' />

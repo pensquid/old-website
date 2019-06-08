@@ -1,7 +1,7 @@
 export default (props) => (
   <figure>
     <img
-      src={`https://cdn.discordapp.com/avatars/${props.avatar}.png?size=128`}
+      src={`https://cdn.discordapp.com/${props.type || 'avatar'}s/${props.avatar}.png?size=128`}
       alt={`${props.for}'s Profile Picture`}
     />
     <figcaption>{props.for}</figcaption>
