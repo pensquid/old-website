@@ -35,12 +35,12 @@ export default () => <>
   </Section>
   <Section title='Our amazing staff'>
     <Grid lg={6} md={3} sm={2}>
-      <Member for='Kognise' avatar='389576827754250241/eeeb23a12ec6e97f30699dc0276534b4' />
-      <Member for='Ryois' avatar='520452924967747584/586971668069613582/Untitled' type='attachment' />
-      <Member for='jokur' avatar='581319977265790986/a_4f50a187ad2a13583aee747ff55c4fe4' />
-      <Member for='Wfenpo' avatar='514563401351954434/3dabe3f903ed7c471e3459a733bd9543' />
-      <Member for='Ara' avatar='270615936057212928/a_813012b2b4edf196b5f44b6439fa01c3' />
-      <Member for='fame' avatar='428656277716074506/c138bc2df7ed8a6aa198ad21acf349a6' />
+      <Member for='Kognise' id='389576827754250241' />
+      <Member for='Ara' id='270615936057212928' />
+      <Member for='jokur' id='581319977265790986' />
+      <Member for='Wfenpo' id='514563401351954434' />
+      <Member for='Hat' id='267852040322023424' />
+      <Member for='fame' id='428656277716074506' />
     </Grid>
   </Section>
   <Section title='Our mission'>
