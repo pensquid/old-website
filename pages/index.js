@@ -65,16 +65,16 @@ export default () => <>
       <Project title='PwnBot' status='working'>
         A bot to automate some tiresome server management tasks.
       </Project>
-      <Project title='Bored' href='https://bored.pwnsquad.net/' status='unstable'>
+      <Project title='Bored' href='https://bored.pwnsquad.net/' status='offline'>
         A simple and beautiful optionally anonymous message board.
       </Project>
-      <Project title='Project Portal' href='https://portal.kognise.dev/' status='working'>
+      <Project title='Project Portal' href='https://portal.kognise.dev/' status='offline'>
         A collection of Dockerized microservices and tools.
       </Project>
       <Project title='Pot' status='working'>
         An SSH honeypot to catch big bad hackers.
       </Project>
-      <Project title='Fish' href='https://signin.account.google.com.goo.gl.gggle.ga/' status='working'>
+      <Project title='Fish' href='https://signin.account.google.com.goo.gl.gggle.ga/' status='offline'>
         A Google login phishing page created for educational purposes.
       </Project>
       <Project title='CTFBot' href='https://discordapp.com/api/oauth2/authorize?client_id=580257069760905216&permissions=0&scope=bot' status='development'>
