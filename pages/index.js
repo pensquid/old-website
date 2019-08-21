@@ -77,7 +77,7 @@ export default () => <>
       <Project title='Fish' href='https://signin.account.google.com.goo.gl.gggle.ga/' status='offline'>
         A Google login phishing page created for educational purposes.
       </Project>
-      <Project title='CTFBot' href='https://discordapp.com/api/oauth2/authorize?client_id=580257069760905216&permissions=0&scope=bot' status='development'>
+      <Project title='CTFBot' href='https://discordapp.com/api/oauth2/authorize?client_id=580257069760905216&permissions=0&scope=bot' status='working'>
         A simple Discord bot for playing hacking CTFs.
       </Project>
       <Project title='PwnHost' status='development'>
