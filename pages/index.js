@@ -56,7 +56,7 @@ export default () => <>
   </Section>
   <Section title='Projects'>
     <Grid lg={3} md={2} sm={1}>
-      <Project title='Website' href='https://pwnsquad.net/' status='working'>
+      <Project title='Website' href='https://pwnsquad.net/' status='unstable'>
         The beautiful website you're looking at right now!
       </Project>
       <Project title='Term' href='https://discordbots.org/bot/520710130598150144' status='offline'>
@@ -65,19 +65,19 @@ export default () => <>
       <Project title='PwnBot' status='working'>
         A bot to automate some tiresome server management tasks.
       </Project>
-      <Project title='Bored' href='https://bored.pwnsquad.net/' status='offline'>
+      <Project title='Bored' href='https://bored.pwnsquad.net/' status='unstable'>
         A simple and beautiful optionally anonymous message board.
       </Project>
       <Project title='Project Portal' href='https://portal.kognise.dev/' status='offline'>
         A collection of Dockerized microservices and tools.
       </Project>
-      <Project title='Pot' status='working'>
+      <Project title='Pot' status='unstable'>
         An SSH honeypot to catch big bad hackers.
       </Project>
-      <Project title='Fish' href='https://signin.account.google.com.goo.gl.gggle.ga/' status='offline'>
+      <Project title='Fish' href='https://signin.account.google.com.goo.gl.gggle.ga/' status='unstable'>
         A Google login phishing page created for educational purposes.
       </Project>
-      <Project title='CTFBot' href='https://discordapp.com/api/oauth2/authorize?client_id=580257069760905216&permissions=0&scope=bot' status='working'>
+      <Project title='CTFBot' href='https://discordapp.com/api/oauth2/authorize?client_id=580257069760905216&permissions=0&scope=bot' status='unstable'>
         A simple Discord bot for playing hacking CTFs.
       </Project>
       <Project title='PwnHost' status='development'>
