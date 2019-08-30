@@ -12,18 +12,18 @@ export default class extends Document {
         <Head>
           <meta charset='utf-8' />
           
-          <meta name='description' content='We&apos;re a Discord programming and hacking server without the people who ruin it all. That means no skids and a fun community.' />
+          <meta name='description' content='We&apos;re a Discord programming community that welcomes people of all skillsets. We&apos;re devoted to being as supportive and friendly as we can and offering help and resources.' />
           <meta name='image' content='https://pwnsquad.net/static/logo.png' />
           
-          <meta itemprop='description' content='We&apos;re a Discord programming and hacking server without the people who ruin it all. That means no skids and a fun community.' />
+          <meta itemprop='description' content='We&apos;re a Discord programming community that welcomes people of all skillsets. We&apos;re devoted to being as supportive and friendly as we can and offering help and resources.' />
           <meta itemprop='image' content='https://pwnsquad.net/static/logo.png' />
           
           <meta name='twitter:card' content='summary' />
-          <meta name='twitter:description' content='We&apos;re a Discord programming and hacking server without the people who ruin it all. That means no skids and a fun community.' />
+          <meta name='twitter:description' content='We&apos;re a Discord programming community that welcomes people of all skillsets. We&apos;re devoted to being as supportive and friendly as we can and offering help and resources.' />
           <meta name='twitter:site' content='@kognise' />
           <meta name='twitter:image:src' content='https://pwnsquad.net/static/logo.png' />
           
-          <meta name='og:description' content='We&apos;re a Discord programming and hacking server without the people who ruin it all. That means no skids and a fun community.' />
+          <meta name='og:description' content='We&apos;re a Discord programming community that welcomes people of all skillsets. We&apos;re devoted to being as supportive and friendly as we can and offering help and resources.' />
           <meta name='og:image' content='https://pwnsquad.net/static/logo.png' />
           <meta name='og:image:width' content='500' />
           <meta name='og:image:height' content='500' />
