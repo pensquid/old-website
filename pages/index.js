@@ -16,7 +16,7 @@ export default () => <>
 
   <Hero
     title='PwnSquad'
-    subtitle='A Discord programming server without the people who ruin it all'
+    subtitle='A Discord programming community that welcomes people of all skillsets'
     action='Join us'
     href='https://discord.gg/X93TsZQ'
   />
@@ -40,23 +40,37 @@ export default () => <>
       <Member for='jokur' id='581319977265790986' />
       <Member for='Wfenpo' id='514563401351954434' />
       <Member for='Hat' id='267852040322023424' />
+      <Member for='Ryois' id='524738797338886184' />
+        
+      <Member for='HazTheWaz' id='162502976521371648' />
+      <Member for='Rut' id='314163417021677568' />
+      <Member for='JackFly26' id='267062179918774273' />
+      <Member for='Aiyan' id='208632825656639488' />
+      <Member for='Anish' id='365958975201738764' />
+      <Member for='Jukeub' id='372093146680655872' />
+      <Member for='ProgramGeek01' id='539618266579206145' />
+      <Member for='Scottybyrd' id='348354083389833218' />
+        
       <Member for='fame' id='428656277716074506' />
+      <Member for='audit0r' id='574746482167644160' />
+      <Member for='pepsipu' id='475525381609357313' />
+      <Member for='MANIC' id='274833304413274112' />
     </Grid>
   </Section>
   <Section title='Our mission'>
     <p>
-      Our mission is twofold: to bring hackers and programmers together in a fun community without the people who ruin everything, and to encourage the next generation of developers and help them learn.
+      Our mission is twofold: to bring hackers and programmers together in a fun community, and to encourage the next generation of amazing developers to learn new things and thrive.
     </p>
     <p>
-      We accomplish the first with a state-of-the-art verification system based on our devoted staff team and a bot we wrote.
+      We are devoted to being as supportive and friendly as we can and offering help and resources. Have a problem? PwnSquad&apos;s staff and helpers can help you fix it.
     </p>
     <p>
-      And we accomplish the second simply by being as supportive as we can and offering whatever help and resources we can find.
+      Giveaways are common, and we try to give stuff that many people can appreciate. We have channels for the latest curated tech news, fun polls, resources, and just cool stuff in general.
     </p>
   </Section>
   <Section title='Projects'>
     <Grid lg={3} md={2} sm={1}>
-      <Project title='Website' href='https://pwnsquad.net/' status='unstable'>
+      <Project title='Website' href='https://pwnsquad.net/' status='working'>
         The beautiful website you're looking at right now!
       </Project>
       <Project title='Term' href='https://discordbots.org/bot/520710130598150144' status='offline'>
@@ -65,19 +79,19 @@ export default () => <>
       <Project title='PwnBot' status='working'>
         A bot to automate some tiresome server management tasks.
       </Project>
-      <Project title='Bored' href='https://bored.pwnsquad.net/' status='unstable'>
+      <Project title='Bored' href='https://bored.pwnsquad.net/' status='working'>
         A simple and beautiful optionally anonymous message board.
       </Project>
-      <Project title='Project Portal' href='https://portal.kognise.dev/' status='offline'>
+      <Project title='Project Portal' href='https://portal.kognise.dev/' status='working'>
         A collection of Dockerized microservices and tools.
       </Project>
-      <Project title='Pot' status='unstable'>
+      <Project title='Pot' status='working'>
         An SSH honeypot to catch big bad hackers.
       </Project>
-      <Project title='Fish' href='https://signin.account.google.com.goo.gl.gggle.ga/' status='unstable'>
+      <Project title='Fish' href='https://signin.account.google.com.goo.gl.gggle.ga/' status='working'>
         A Google login phishing page created for educational purposes.
       </Project>
-      <Project title='CTFBot' href='https://discordapp.com/api/oauth2/authorize?client_id=580257069760905216&permissions=0&scope=bot' status='unstable'>
+      <Project title='CTFBot' href='https://discordapp.com/api/oauth2/authorize?client_id=580257069760905216&permissions=0&scope=bot' status='working'>
         A simple Discord bot for playing hacking CTFs.
       </Project>
       <Project title='PwnHost' status='development'>
