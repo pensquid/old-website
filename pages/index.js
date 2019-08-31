@@ -41,20 +41,6 @@ export default () => <>
       <Member for='Wfenpo' id='514563401351954434' />
       <Member for='Hat' id='267852040322023424' />
       <Member for='Ryois' id='524738797338886184' />
-        
-      <Member for='HazTheWaz' id='162502976521371648' hidden='md' />
-      <Member for='Rut' id='314163417021677568' hidden='md' />
-      <Member for='JackFly26' id='267062179918774273' hidden='md' />
-      <Member for='Aiyan' id='208632825656639488' hidden='md' />
-      <Member for='Anish' id='365958975201738764' hidden='md' />
-      <Member for='Jukeub' id='372093146680655872' hidden='md' />
-      <Member for='ProgramGeek01' id='539618266579206145' hidden='md' />
-      <Member for='Scottybyrd' id='348354083389833218' hidden='md' />
-        
-      <Member for='fame' id='428656277716074506' hidden='md' />
-      <Member for='audit0r' id='574746482167644160' hidden='md' />
-      <Member for='pepsipu' id='475525381609357313' hidden='md' />
-      <Member for='MANIC' id='274833304413274112' hidden='md' />
     </Grid>
   </Section>
   <Section title='Our mission'>
