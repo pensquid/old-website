@@ -26,16 +26,6 @@ export default (props) => (
         margin-top: 10px;
         text-align: center;
       }
-      @media only screen and (max-width: 696px) {
-        figure {
-          display: ${props.hidden === 'md' ? 'none' : 'block'};
-        }
-      }
-      @media only screen and (max-width: 400px) {
-        figure {
-          display: ${props.hidden === 'sm' ? 'none' : 'block'};
-        }
-      }
     `}</style>
   </figure>
 )
