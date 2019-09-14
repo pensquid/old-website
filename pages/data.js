@@ -18,7 +18,7 @@ export default () => <>
   />
   <Section title='The problem'>
     <p>
-      You&apos;ve probably been directed here by a well-meaning person who just wants to help.
+      You&apos;ve probably been directed here by a well-intentioned person who just wants to help.
       You haven&apos;t messed up, but this page can help you be a better community member!
     </p>
     <p>Here&apos;s an example of asking to ask:</p>
