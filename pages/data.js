@@ -7,8 +7,8 @@ import Head from 'next/head'
 export default () => <>
   <Head>
     <title>Don&apos;t Ask to Ask | PwnSquad</title>
-    <meta itemprop='name' content='Don&apos;t Ask to Ask | PwnSquad' />
-    <meta name='twitter:title' content='Don&apos;t Ask to Ask | PwnSquad' />
+    <meta itemprop='name' content='Don&apos;t Ask to Ask' />
+    <meta name='twitter:title' content='Don&apos;t Ask to Ask' />
     <meta name='og:title' content='Don&apos;t Ask to Ask' />
   </Head>
 
