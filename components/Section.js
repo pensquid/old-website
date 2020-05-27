@@ -10,8 +10,8 @@ export default (props) => (
     <style jsx>{`
       section {
         padding: ${theme.extraPadding};
-        background: #e9ecef;
-        color: #495057;
+        background: #242a31;
+        color: #d8d8d9;
       }
       .container {
         max-width: ${theme.width};
