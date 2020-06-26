@@ -1,7 +1,7 @@
-import Hero from '../components/Hero'
-import Section from '../components/Section'
-import Blockquote from '../components/Blockquote'
-import ExternalLink from '../components/ExternalLink'
+import Hero from 'components/Hero'
+import Section from 'components/Section'
+import Blockquote from 'components/Blockquote'
+import ExternalLink from 'components/ExternalLink'
 import Head from 'next/head'
 
 export default () => <>
@@ -16,6 +16,7 @@ export default () => <>
     title='Don&apos;t ask to ask'
     subtitle='Asking if anyone is online who can answer your question wastes everyone&apos;s time &mdash; here&apos;s why'
   />
+
   <Section title='The problem'>
     <p>
       You&apos;ve probably been directed here by a well-intentioned person who just wants to help.
@@ -33,6 +34,7 @@ export default () => <>
       After a lot more back-and-forth, your question will finally (hopefully) be answered, probably a few hours after you asked it because people exist in different timezones.
     </p>
   </Section>
+
   <Section title='The solution'>
     <p>
       Here&apos;s the thing!{' '}
@@ -49,6 +51,7 @@ export default () => <>
       Do you guys have any tips/advice on how to accomplish this?
     </Blockquote>
   </Section>
+  
   <Section title='No hi'>
     <p>
       One variant of asking to ask is saying hi/hello instead of just going ahead and asking your question.

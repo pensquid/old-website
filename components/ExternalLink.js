@@ -1,3 +1,5 @@
+import theme from 'theme'
+
 export default (props) => (
   <a href={props.href} rel='noopener noreferer'>
     {props.children}
@@ -5,7 +7,7 @@ export default (props) => (
     <style jsx>{`
       a {
         text-decoration: none;
-        color: #339af0;
+        color: ${theme.accent};
       }
       a:hover {
         text-decoration: underline;

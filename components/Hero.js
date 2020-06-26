@@ -1,4 +1,4 @@
-import theme from '../theme'
+import theme from 'theme'
 
 export default (props) => (
   <section>
@@ -31,7 +31,7 @@ export default (props) => (
         margin-top: 20px;
         color: #ffffff;
         text-decoration: none;
-        background: #339af0;
+        background: ${theme.accent};
         padding: 14px;
       }
       .action:hover {

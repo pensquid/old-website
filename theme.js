@@ -6,5 +6,6 @@ export default {
     unstable: '#fab005',
     working: '#51cf66',
     development: '#339af0'
-  }
+  },
+  accent: '#5c7cfa'
 }

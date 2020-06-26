@@ -1,9 +1,9 @@
-import Hero from '../components/Hero'
-import Section from '../components/Section'
-import Card from '../components/Card'
-import Member from '../components/Member'
-import Grid from '../components/Grid'
-import Project from '../components/Project'
+import Hero from 'components/Hero'
+import Section from 'components/Section'
+import Card from 'components/Card'
+import Member from 'components/Member'
+import Grid from 'components/Grid'
+import Project from 'components/Project'
 import Head from 'next/head'
 
 export default () => <>
@@ -20,6 +20,7 @@ export default () => <>
     action='Join us'
     href='https://discord.gg/X93TsZQ'
   />
+
   <Section title='How it works'>
     <Grid lg={3} md={1}>
       <Card title='Entry'>
@@ -33,6 +34,7 @@ export default () => <>
       </Card>
     </Grid>
   </Section>
+
   <Section title='Our amazing staff'>
     <Grid lg={6} md={3} sm={2}>
       <Member for='Kognise' id='389576827754250241' />
@@ -43,6 +45,7 @@ export default () => <>
       <Member for='Sanity1676' id='564851918803959859' />
     </Grid>
   </Section>
+
   <Section title='Our mission'>
     <p>
       Our mission is twofold: to bring hackers and programmers together in a fun community, and to encourage the next generation of amazing developers to learn new things and thrive.
@@ -54,6 +57,7 @@ export default () => <>
       Giveaways are common, and we try to give stuff that many people can appreciate. We have channels for the latest curated tech news, fun polls, resources, and just cool stuff in general.
     </p>
   </Section>
+  
   <Section title='Projects'>
     <Grid lg={3} md={2} sm={1}>
       <Project title='Website' href='https://pwnsquad.net/' status='working'>

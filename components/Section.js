@@ -1,4 +1,4 @@
-import theme from '../theme'
+import theme from 'theme'
 
 export default (props) => (
   <section>
@@ -10,8 +10,6 @@ export default (props) => (
     <style jsx>{`
       section {
         padding: ${theme.extraPadding};
-        background: #242a31;
-        color: #d8d8d9;
       }
       .container {
         max-width: ${theme.width};

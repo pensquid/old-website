@@ -2,11 +2,12 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "static": "next export",
     "start": "next start"
   },
   "dependencies": {
-    "next": "^8.1.0",
+    "nanoid": "^3.1.10",
+    "next": "^9.4",
+    "node-random-name": "^1.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   }
