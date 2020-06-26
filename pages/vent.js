@@ -6,11 +6,14 @@ import Section from 'components/Section'
 import Button from 'components/Button'
 import Textarea from 'components/Textarea'
 import Head from 'next/head'
+import ReCAPTCHA from 'react-google-recaptcha'
 
 export default () => {
   const [ seed, setSeed ] = useState('')
   const [ message, setMessage ] = useState('')
+  const [ captcha, setCaptcha ] = useState(null)
 
+  console.log(captcha)
   useEffect(() => {
     const seed = localStorage.getItem('identitySeed') ?? nanoid()
     setSeed(seed)
@@ -37,10 +40,11 @@ export default () => {
       <form onSubmit={async (event) => {
         event.preventDefault()
         setMessage('')
-        await fetch(`/api/vent?seed=${encodeURIComponent(seed)}&message=${encodeURIComponent(message)}`)
+        await fetch(`/api/vent?seed=${encodeURIComponent(seed)}&message=${encodeURIComponent(message)}&captcha=${encodeURIComponent(captcha)}`)
       }}>
         <Textarea placeholder='Message content' value={message} onChange={(event) => setMessage(event.target.value)} />
-        <Button type='submit' disabled={!message.trim()}>Send</Button>
+        <ReCAPTCHA sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITEKEY} onChange={setCaptcha} />
+        <Button type='submit' disabled={!message.trim() || !captcha}>Send</Button>
       </form>
     </Section>
 

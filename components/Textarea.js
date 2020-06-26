@@ -13,6 +13,7 @@ export default (props) => <>
       border: none;
       background: #343a40;
       color: inherit;
+      margin-bottom: 20px;
     }
 
     ::placeholder {

@@ -5,6 +5,21 @@ const ventHook = process.env.VENTING_WEBHOOK_URL
 export default async (req, res) => {
   const name = randomName({ first: true, seed: req.query.seed ?? 'bob' })
 
+  const rex = await fetch('https://www.google.com/recaptcha/api/siteverify', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/x-www-form-urlencoded'
+    },
+    body: `secret=${encodeURIComponent(process.env.RECAPTCHA_SECRET)}&response=${encodeURIComponent(req.query.captcha)}`
+  })
+  const json = await rex.json()
+
+  console.log(json)
+  if (!json.success) {
+    res.status(401)
+    return res.end('Incorrect captcha')
+  }
+
   await fetch(ventHook, {
     method: 'POST',
     headers: {
@@ -18,5 +33,5 @@ export default async (req, res) => {
   })
 
   res.status(200)
-  res.end()
+  res.end('OK')
 }
