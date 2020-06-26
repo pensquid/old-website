@@ -1,5 +1,5 @@
 import { nanoid } from 'nanoid'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 
 import Hero from 'components/Hero'
 import Section from 'components/Section'
@@ -12,8 +12,8 @@ export default () => {
   const [ seed, setSeed ] = useState('')
   const [ message, setMessage ] = useState('')
   const [ captcha, setCaptcha ] = useState(null)
+  const captchaRef = useRef()
 
-  console.log(captcha)
   useEffect(() => {
     const seed = localStorage.getItem('identitySeed') ?? nanoid()
     setSeed(seed)
@@ -40,10 +40,12 @@ export default () => {
       <form onSubmit={async (event) => {
         event.preventDefault()
         setMessage('')
+        captchaRef.current?.reset()
+
         await fetch(`/api/vent?seed=${encodeURIComponent(seed)}&message=${encodeURIComponent(message)}&captcha=${encodeURIComponent(captcha)}`)
       }}>
         <Textarea placeholder='Message content' value={message} onChange={(event) => setMessage(event.target.value)} />
-        <ReCAPTCHA sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITEKEY} onChange={setCaptcha} />
+        <ReCAPTCHA sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITEKEY} theme='dark' size='normal' ref={captchaRef} onChange={setCaptcha} />
         <Button type='submit' disabled={!message.trim() || !captcha}>Send</Button>
       </form>
     </Section>

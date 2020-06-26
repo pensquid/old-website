@@ -14,7 +14,6 @@ export default async (req, res) => {
   })
   const json = await rex.json()
 
-  console.log(json)
   if (!json.success) {
     res.status(401)
     return res.end('Incorrect captcha')
