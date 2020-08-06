@@ -42,7 +42,7 @@ export default () => <>
       <Member for='jokur' id='581319977265790986' />
       <Member for='Wfenpo' id='514563401351954434' />
       <Member for='Avedith' id='598023504998170654' />
-      <Member for='Sanity1676' id='564851918803959859' />
+      <Member for='Jukeub' id='372093146680655872' />
     </Grid>
   </Section>
 
