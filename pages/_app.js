@@ -2,13 +2,13 @@ import Head from 'next/head'
 
 export default ({ Component, pageProps }) => <>
   <Head>
-    <meta charset='utf-8' />
+    <meta charSet='utf-8' />
 
     <meta name='description' content='We&apos;re a Discord programming community that welcomes people of all skillsets. We&apos;re devoted to being as supportive and friendly as we can and offering help and resources.' />
     <meta name='image' content='https://pwnsquad.net/static/logo.png' />
 
-    <meta itemprop='description' content='We&apos;re a Discord programming community that welcomes people of all skillsets. We&apos;re devoted to being as supportive and friendly as we can and offering help and resources.' />
-    <meta itemprop='image' content='https://pwnsquad.net/static/logo.png' />
+    <meta itemProp='description' content='We&apos;re a Discord programming community that welcomes people of all skillsets. We&apos;re devoted to being as supportive and friendly as we can and offering help and resources.' />
+    <meta itemProp='image' content='https://pwnsquad.net/static/logo.png' />
 
     <meta name='twitter:card' content='summary' />
     <meta name='twitter:description' content='We&apos;re a Discord programming community that welcomes people of all skillsets. We&apos;re devoted to being as supportive and friendly as we can and offering help and resources.' />

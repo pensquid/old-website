@@ -22,6 +22,8 @@ export default (props) => (
       .logo {
         width: 100px;
         height: 100px;
+        user-select: none;
+        pointer-events: none;
       }
       h1 {
         font-size: 3em;
@@ -33,6 +35,7 @@ export default (props) => (
         text-decoration: none;
         background: ${theme.accent};
         padding: 14px;
+        user-select: none;
       }
       .action:hover {
         text-decoration: underline;

@@ -15,6 +15,7 @@ export default (props) => (
         border: none;
         font-family: inherit;
         cursor: pointer;
+        user-select: none;
       }
 
       button:hover:not([disabled]) {

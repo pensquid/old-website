@@ -19,6 +19,8 @@ export default (props) => (
         display: block;
         transition: border-radius 300ms ease;
         background-color: #000000;
+        user-select: none;
+        pointer-events: none;
       }
       figure:hover img {
         border-radius: 20px;

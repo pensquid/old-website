@@ -26,7 +26,7 @@ export default () => {
   return <>
     <Head>
       <title>Venting | PwnSquad</title>
-      <meta itemprop='name' content='Venting' />
+      <meta itemProp='name' content='Venting' />
       <meta name='twitter:title' content='Venting' />
       <meta name='og:title' content='Venting' />
     </Head>

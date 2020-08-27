@@ -9,28 +9,28 @@ import Head from 'next/head'
 export default () => <>
   <Head>
     <title>PwnSquad</title>
-    <meta itemprop='name' content='PwnSquad' />
+    <meta itemProp='name' content='PwnSquad' />
     <meta name='twitter:title' content='PwnSquad' />
     <meta name='og:title' content='PwnSquad' />
   </Head>
 
   <Hero
     title='PwnSquad'
-    subtitle='A Discord programming community that welcomes people of all skillsets'
+    subtitle='A Discord-based programming community that welcomes people of all skillsets'
     action='Join us'
     href='https://discord.gg/X93TsZQ'
   />
 
   <Section title='How it works'>
     <Grid lg={3} md={1}>
-      <Card title='Entry'>
-        You join the server and have 3 days to get verified. A bot will notify you how much time you have left.
-      </Card>
       <Card title='Verification'>
-        Tell us a little about yourself and why you want to join and the staff will decide whether or not to let you through.
+        Join the server and tell us a little about yourself! Prove you're different from the thousands of bots.
       </Card>
-      <Card title='Fun'>
-        Assuming you got in, you can start having fun! Make sure to check out some channels and meet the community.
+      <Card title='Community'>
+        Although first and foremost we're a coding server, we have an active, friendly, community.
+      </Card>
+      <Card title='Help'>
+        Learning a new language, or maybe never coded before? Just ask in our special topics channels.
       </Card>
     </Grid>
   </Section>
@@ -54,11 +54,13 @@ export default () => <>
       We are devoted to being as supportive and friendly as we can and offering help and resources. Have a problem? PwnSquad&apos;s staff and helpers can help you fix it.
     </p>
     <p>
-      Giveaways are common, and we try to give stuff that many people can appreciate. We have channels for the latest curated tech news, fun polls, resources, and just cool stuff in general.
+      We have channels for the latest curated tech news, fun polls, resources, and just cool stuff in general. Occasoinally we even organize CTFs and hackathons!
     </p>
   </Section>
   
   <Section title='Projects'>
+    We are in the middle of a small outage due to server migration.
+    
     <Grid lg={3} md={2} sm={1}>
       <Project title='Website' href='https://pwnsquad.net/' status='working'>
         The beautiful website you're looking at right now!
