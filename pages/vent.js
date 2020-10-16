@@ -45,7 +45,7 @@ export default () => {
         await fetch(`/api/vent?seed=${encodeURIComponent(seed)}&message=${encodeURIComponent(message)}&captcha=${encodeURIComponent(captcha)}`)
       }}>
         <Textarea placeholder='Message content' value={message} onChange={(event) => setMessage(event.target.value)} />
-        <ReCAPTCHA sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITEKEY} theme='dark' size='normal' ref={captchaRef} onChange={setCaptcha} />
+        <ReCAPTCHA sitekey='6LcXmqkZAAAAACXuqLSW4Pj2fpdFYX3-6xT-b4_Y' theme='dark' size='normal' ref={captchaRef} onChange={setCaptcha} />
         <Button type='submit' disabled={!message.trim() || !captcha}>Send</Button>
       </form>
     </Section>
