@@ -26,7 +26,7 @@ export default async (req, res) => {
     },
     body: JSON.stringify({
       username: name,
-      avatar_url: `https://api.adorable.io/avatars/500/${encodeURIComponent(name)}`,
+      avatar_url: `https://adorable.pwnsquad.net/500/${encodeURIComponent(name)}`,
       content: req.query.message?.trim()?.replace(/@/g, '`@`') ?? 'No message content :('
     })
   })
