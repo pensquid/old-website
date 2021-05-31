@@ -35,14 +35,11 @@ export default () => <>
     </Grid>
   </Section>
 
-  <Section title='Our amazing staff'>
-    <Grid lg={6} md={3} sm={2}>
+  <Section title='Our staff'>
+    <Grid lg={3} md={3} sm={3}>
       <Member for='Kognise' id='389576827754250241' />
-      <Member for='Ara' id='270615936057212928' />
       <Member for='jokur' id='581319977265790986' />
-      <Member for='Wfenpo' id='514563401351954434' />
       <Member for='Avedith' id='598023504998170654' />
-      <Member for='Jukeub' id='372093146680655872' />
     </Grid>
   </Section>
 
@@ -74,20 +71,11 @@ export default () => <>
       <Project title='Bored' href='https://bored.pwnsquad.net/' status='offline'>
         A simple and beautiful optionally anonymous message board.
       </Project>
-      <Project title='Project Portal' href='https://portal.kognise.dev/' status='offline'>
-        A collection of Dockerized microservices and tools.
-      </Project>
       <Project title='Pot' status='offline'>
         An SSH honeypot to catch big bad hackers.
       </Project>
-      <Project title='Fish' href='https://signin.account.google.com.goo.gl.gggle.ga/' status='offline'>
-        A Google login phishing page created for educational purposes.
-      </Project>
       <Project title='CTFBot' href='https://discordapp.com/api/oauth2/authorize?client_id=580257069760905216&permissions=0&scope=bot' status='offline'>
         A simple Discord bot for playing hacking CTFs.
-      </Project>
-      <Project title='PwnHost' status='development'>
-        Simple and reliable personal hosting for any application.
       </Project>
     </Grid>
   </Section>
