@@ -18,7 +18,7 @@ export default () => <>
     title='PwnSquad'
     subtitle='A Discord-based programming community that welcomes people of all skillsets'
     action='Join us'
-    href='https://discord.gg/X93TsZQ'
+    href='https://discord.gg/A2uE8rksqy'
   />
 
   <Section title='How it works'>
