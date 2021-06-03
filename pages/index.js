@@ -68,8 +68,8 @@ export default () => <>
       <Project title='PwnBot' status='working'>
         A bot to automate some tiresome server management tasks.
       </Project>
-      <Project title='Bored' href='https://bored.pwnsquad.net/' status='offline'>
-        A simple and beautiful optionally anonymous message board.
+      <Project title='Asmodeus' href='https://asmodeus.pwnsquad.net/' status='working'>
+        A massive collection of free knowledge in the form of pdfs.
       </Project>
       <Project title='Pot' status='offline'>
         An SSH honeypot to catch big bad hackers.
