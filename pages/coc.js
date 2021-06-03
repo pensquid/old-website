@@ -7,9 +7,9 @@ import theme from 'theme'
 export default () => <>
   <Head>
     <title>Code of Conduct | PwnSquad</title>
-    <meta itemProp='name' content='Don&apos;t Ask to Ask' />
-    <meta name='twitter:title' content='Don&apos;t Ask to Ask' />
-    <meta name='og:title' content='Don&apos;t Ask to Ask' />
+    <meta itemProp='name' content='Code of Conduct' />
+    <meta name='twitter:title' content='Code of Conduct' />
+    <meta name='og:title' content='Code of Conduct' />
   </Head>
 
   <Hero
