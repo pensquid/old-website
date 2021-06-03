@@ -29,7 +29,7 @@ export default () => <>
       We are devoted to being as supportive and friendly as we can and offering help and resources. Struggling with something? PwnSquad&apos;s staff and helpers can help you fix it.
     </p>
     <p>
-      We have channels for the latest curated tech news, fun polls, resources, and just cool stuff in general. Occasoinally we even organize CTFs and hackathons where you can win real things! So after all, why not join?
+      We have channels for the latest curated tech news, fun polls, resources, and just cool stuff in general. Occasionally we even organize CTFs and hackathons where you can win real things! So after all, why not join?
     </p>
   </Section>
 
