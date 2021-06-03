@@ -7,5 +7,6 @@ export default {
     working: '#51cf66',
     development: '#339af0'
   },
-  accent: '#5c7cfa'
+  accent: '#5c7cfa',
+  hover: '#cc5de8'
 }

@@ -2,6 +2,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
+    "static": "next export",
     "start": "next start -p 6002"
   },
   "dependencies": {

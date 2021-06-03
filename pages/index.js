@@ -16,23 +16,21 @@ export default () => <>
 
   <Hero
     title='PwnSquad'
-    subtitle='A Discord-based programming community that welcomes people of all skillsets'
-    action='Join us'
+    subtitle='The Discord-based programming community for everyone, experienced and unexperienced'
+    action='Join 900+ members'
     href='https://discord.gg/A2uE8rksqy'
   />
 
-  <Section title='How it works'>
-    <Grid lg={3} md={1}>
-      <Card title='Verification'>
-        Join the server and tell us a little about yourself! Prove you're different from the thousands of bots.
-      </Card>
-      <Card title='Community'>
-        Although first and foremost we're a coding server, we have an active, friendly, community.
-      </Card>
-      <Card title='Help'>
-        Learning a new language, or maybe never coded before? Just ask in our special topics channels.
-      </Card>
-    </Grid>
+  <Section title='Our mission'>
+    <p>
+      Our mission is twofold: to bring hackers and programmers together in a fun community, and to encourage the next generation of amazing developers to learn new things and thrive.
+    </p>
+    <p>
+      We are devoted to being as supportive and friendly as we can and offering help and resources. Struggling with something? PwnSquad&apos;s staff and helpers can help you fix it.
+    </p>
+    <p>
+      We have channels for the latest curated tech news, fun polls, resources, and just cool stuff in general. Occasoinally we even organize CTFs and hackathons where you can win real things! So after all, why not join?
+    </p>
   </Section>
 
   <Section title='Our staff'>
@@ -43,16 +41,18 @@ export default () => <>
     </Grid>
   </Section>
 
-  <Section title='Our mission'>
-    <p>
-      Our mission is twofold: to bring hackers and programmers together in a fun community, and to encourage the next generation of amazing developers to learn new things and thrive.
-    </p>
-    <p>
-      We are devoted to being as supportive and friendly as we can and offering help and resources. Have a problem? PwnSquad&apos;s staff and helpers can help you fix it.
-    </p>
-    <p>
-      We have channels for the latest curated tech news, fun polls, resources, and just cool stuff in general. Occasoinally we even organize CTFs and hackathons!
-    </p>
+  <Section title='How it works'>
+    <Grid lg={3} md={1}>
+      <Card title='Verification'>
+        Join the server and simply agree to the rules and tell us a little bit about yourself!
+      </Card>
+      <Card title='Community'>
+        Although first and foremost we're a coding server, we have an active, friendly, community.
+      </Card>
+      <Card title='Help'>
+        Learning a new language, or maybe never coded before? Just ask in our special topics channels.
+      </Card>
+    </Grid>
   </Section>
   
   <Section title='Projects'>

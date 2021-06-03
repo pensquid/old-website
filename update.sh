@@ -1,4 +1,4 @@
 git pull
 yarn
 yarn build
-yarn static
+pm2 restart pwnsquad-website

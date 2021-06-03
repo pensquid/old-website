@@ -1,4 +1,4 @@
-export default (props) => <>
+const Textarea = (props) => <>
   <textarea placeholder={props.placeholder} value={props.value} onChange={props.onChange} />
 
   <style jsx>{`
@@ -21,3 +21,5 @@ export default (props) => <>
     }
   `}</style>
 </>
+
+export default Textarea

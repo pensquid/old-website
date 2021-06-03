@@ -33,7 +33,7 @@ export default () => {
 
     <Hero
       title='Venting'
-      subtitle='Anonymously send messages in #venting.'
+      subtitle='Anonymously send messages in #venting'
     />
 
     <Section title='Form'>
