@@ -16,7 +16,7 @@ export default () => <>
 
   <Hero
     title='PwnSquad'
-    subtitle='The Discord-based programming community for everyone, experienced and unexperienced'
+    subtitle='The Discord-based programming community for everyone, experienced and inexperienced'
     action='Join 900+ members'
     href='https://discord.gg/A2uE8rksqy'
   />
