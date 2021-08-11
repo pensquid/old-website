@@ -59,7 +59,7 @@ export default () => <>
   <Section title='Projects'>
     We are in the middle of a small outage due to server migration.
     
-    <Grid lg={3} md={2} sm={1}>
+    <Grid lg={4} md={2} sm={1}>
       <Project title='Website' href='https://pwnsquad.net/' status='working'>
         The beautiful website you're looking at right now!
       </Project>
