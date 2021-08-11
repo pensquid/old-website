@@ -36,8 +36,9 @@ export default () => <>
   <Section title='Our staff'>
     <Grid lg={3} md={3} sm={3}>
       <Member for='Kognise' id='389576827754250241' />
-      <Member for='jokur' id='581319977265790986' />
+      <Member for='bruh.tar.gz' id='367439346908790805' />
       <Member for='Avedith' id='598023504998170654' />
+      <Member for='jokur' id='581319977265790986' />
     </Grid>
   </Section>
 
