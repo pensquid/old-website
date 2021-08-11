@@ -34,7 +34,7 @@ export default () => <>
   </Section>
 
   <Section title='Our staff'>
-    <Grid lg={3} md={3} sm={3}>
+    <Grid lg={4} md={4} sm={2}>
       <Member for='Kognise' id='389576827754250241' />
       <Member for='bruh.tar.gz' id='367439346908790805' />
       <Member for='Avedith' id='598023504998170654' />
@@ -59,7 +59,7 @@ export default () => <>
   <Section title='Projects'>
     We are in the middle of a small outage due to server migration.
     
-    <Grid lg={4} md={2} sm={1}>
+    <Grid lg={3} md={2} sm={1}>
       <Project title='Website' href='https://pwnsquad.net/' status='working'>
         The beautiful website you're looking at right now!
       </Project>
