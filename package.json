@@ -6,7 +6,7 @@
     "start": "next start -p 6002"
   },
   "dependencies": {
-    "nanoid": "^3.1.10",
+    "nanoid": "^3.1.31",
     "next": "^9.5",
     "node-random-name": "^1.0.1",
     "react": "^16.8.6",
